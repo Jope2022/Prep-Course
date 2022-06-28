@@ -1,0 +1,35 @@
+h1 {
+    color: red;
+    margin-left: 500px;
+   
+} 
+h3 {
+    margin-left: 600px;
+   
+} 
+h4 {
+    margin-left: 560px;
+   
+} 
+
+img {
+    width: 400px;
+} 
+#thirdDiv {
+    height: 600px;
+    width: 500px;
+    padding: 50px;
+    border: red 10px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:rgb(215, 223, 206);
+}
+#spanId {
+    font-size: 18px;
+    margin-left: 500px;
+}
+#divClass {
+    margin: auto;
+   
+}
+   
