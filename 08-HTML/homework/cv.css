@@ -1,0 +1,49 @@
+#Fondo {
+    height: 900px;
+    width: 200px;
+    padding: 50px;
+    border: red 30px;
+    margin-left: 50px;
+    margin-right: 100px;
+    margin-block-end: 50px;
+    background-color:rgb(215, 223, 206);
+    float: left;
+    border-radius: 5px;
+}
+#DatosPer {
+     padding: 0.5px;
+}
+#ExpLab {
+    height: 150px;
+    width: 500px;
+    padding: 50px;
+    margin-left: 500px;
+    vertical-align: middle;
+    align-items: flex-start; 
+    text-align: justify;
+    line-height: 5,5px;
+}
+
+#datosAca {
+    height: 150px;
+    width: 500px;
+    padding: 50px;
+    margin-left: 500px;
+    text-align: justify;
+}
+#hob{
+    height: 150px;
+    width: 500px;
+    padding: 50px;
+    margin-left: 500px;
+    text-align: justify;
+
+}
+#expt {
+    height: 150px;
+    width: 500px;
+    padding: 50px;
+    margin-left: 500px;
+    text-align: justify;
+}
+
