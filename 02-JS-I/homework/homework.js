@@ -42,8 +42,8 @@ function suma(x, y) {
 function resta(x, y) {
   // Resta "y" de "x" y devuelve el valor
   // Tu código:
-  var res = y - x;
-  return res 
+  var resultado = x - y
+  return resultado 
 }
 
 function multiplica(x, y) {
@@ -80,7 +80,6 @@ function sonIguales(x, y) {
         return false
       }
     }
-
 
 function menosQueNoventa(num) {
   // Devuelve "true" si el argumento de la función "num" es menor que noventa
@@ -136,15 +135,14 @@ function elevarAlCuadrado(num) {
   // Devuelve el valor de "num" elevado al cuadrado
   // ojo: No es raiz cuadrada!
   // Tu código:
-  var cuadrado = num * num
+  var cuadrado = num * num;
   return cuadrado;
 }
 
 function elevarAlCubo(num) {
   // Devuelve el valor de "num" elevado al cubo
   // Tu código:
-  var cubo = num * 3
-  return cubo 
+  return Math.pow(num,3);
 }
 
 function elevar(num, exponent) {
@@ -176,9 +174,9 @@ function esPositivo(numero) {
   //Si el número es positivo, devolver ---> "Es positivo"
   //Si el número es negativo, devolver ---> "Es negativo"
   //Si el número es 0, devuelve false
-  if (numero > 0) return "Es Positivo";
-  else if(numero < 0) return "Es Negativo";
-  else return false;    
+  if (numero > 0) return "Es positivo"
+  else if(numero < 0) return "Es negativo"
+  else return false    
 }
  
 function agregarSimboloExclamacion(str) {
@@ -201,7 +199,8 @@ function obtenerSaludo(nombre) {
   // Toma la string "nombre" y concatena otras string en la cadena para que tome la siguiente forma:
   // "Martin" -> "Hola Martin!"
   // Tu código:
-  return "hola" +" "+ nombre +"!";
+  
+  return "Hola" +" "+ nombre +"!";
 }
 
 function obtenerAreaRectangulo(alto, ancho) {
@@ -229,7 +228,7 @@ function deEuroAdolar(euro){
   //Supongamos que 1 euro equivale a 1.20 dólares. Escribe un programa que reciba
   //como parámetro un número de euros y calcule el cambio en dólares.
   //Escribe tu código aquí
-  return euro * 1,20;
+  return euro * 1.20;
 }
 
 
@@ -239,13 +238,11 @@ function esVocal(letra){
   //que no se puede procesar el dato mediante el mensaje "Dato incorrecto".
   // Si no es vocal, tambien debe devolver "Dato incorrecto".
   //Escribe tu código aquí
-  if (letra.length > 1)return "Datos incorrectos";
+  if (letra.length > 1) return "Dato incorrecto"
     if(letra === "a" || letra ==="e" || letra ==="i" || letra ==="o" || letra ==="u" )
-      return "es vocal";
-      else return "datos incorrectos"
-    }  
-
-
+      return "Es vocal"
+      else return "Dato incorrecto"
+}
 
 
 // No modificar nada debajo de esta línea
