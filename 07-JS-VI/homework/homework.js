@@ -67,7 +67,7 @@ function filter(array) {
       return elemento
   } 
   })
-  return arrayNuevo;  
+  return arrayNuevo
 }
 
 // No modificar nada debajo de esta línea()
